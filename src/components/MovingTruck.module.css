@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.truckBox {
+  position: absolute;
+  top: -900px;
+  height: 1000px;
+  width: 1000px;
+  background-color: #fbf5de;
+  border-style: solid;
+  border-radius: 1%;
+}

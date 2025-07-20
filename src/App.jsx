@@ -1,11 +1,15 @@
-import NavBar from "./components/NavBar";
+import MovingTruck from "./components/MovingTruck.jsx";
 
 import styles from "./App.module.css";
+import Landing from "./components/Landing/Landing.jsx";
+import Logo from "./components/Logo.jsx";
 
 function App() {
   return (
     <div className={styles.container}>
-      <NavBar />
+      <Logo />
+      <MovingTruck />
+      <Landing />
     </div>
   );
 }

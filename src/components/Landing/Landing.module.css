@@ -1,0 +1,22 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  background-color: #fbf5de;
+
+  display: flex;
+  justify-content: center;
+}
+
+.hero {
+  width: 900px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+h2 {
+}
