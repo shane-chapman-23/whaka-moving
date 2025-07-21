@@ -1,15 +1,15 @@
 import MovingTruck from "./components/MovingTruck.jsx";
 
 import styles from "./App.module.css";
-import Landing from "./components/Landing/Landing.jsx";
 import Logo from "./components/Logo.jsx";
+import GridContainer from "./GridContainer.jsx";
 
 function App() {
   return (
     <div className={styles.container}>
       <Logo />
       <MovingTruck />
-      <Landing />
+      <GridContainer />
     </div>
   );
 }

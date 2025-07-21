@@ -7,7 +7,7 @@
   align-items: end;
 }
 
-img {
+.logoImage {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 10px;
@@ -15,7 +15,7 @@ img {
   width: 60px;
 }
 
-h2 {
+.logoName {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   line-height: 1.1;

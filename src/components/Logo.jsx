@@ -5,8 +5,8 @@ import styles from "./Logo.module.css";
 export default function Logo() {
   return (
     <div className={styles.container}>
-      <img src="images/logo-black.svg"></img>
-      <h2>
+      <img src="images/logo-black.svg" className={styles.logoImage}></img>
+      <h2 className={styles.logoName}>
         Whakatane <br />
         Moving
       </h2>
