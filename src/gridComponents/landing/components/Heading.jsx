@@ -8,7 +8,8 @@ export default function Heading() {
         Moving the{" "}
         <span className={styles.boldText}>Eastern Bay of Plenty</span>
         <br />
-        and beyond for <span className={styles.boldText}>over a decade.</span>
+        and <span className={styles.boldText}>beyond</span> for{" "}
+        <span className={styles.boldText}>over a decade.</span>
       </h2>
     </div>
   );

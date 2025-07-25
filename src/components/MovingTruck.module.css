@@ -1,11 +1,14 @@
 .container {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .truckBox {
-  position: absolute;
-  top: -900px;
+  position: fixed;
+  z-index: 999;
+  transform: translateY(-900px);
+  top: 0;
   height: 1000px;
   width: 1000px;
   background-color: #fbf5de;

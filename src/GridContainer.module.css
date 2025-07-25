@@ -1,11 +1,11 @@
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(12, 50px);
-  grid-template-rows: repeat(12, 50px);
+  grid-template-rows: repeat(50, 50px);
   gap: 1rem;
   padding: 1rem;
+  padding-top: 33vh;
 
   width: 900px;
-  height: 300vh;
   margin: 0 auto;
 }
