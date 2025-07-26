@@ -7,7 +7,6 @@ export default function GridBox({
   backgroundColour,
   border,
   children,
-  scrollLag = true,
 }) {
   const {x: colStart, y: rowStart} = position;
   const {x: colSpan, y: rowSpan} = size;
@@ -21,13 +20,7 @@ export default function GridBox({
   };
 
   return (
-    <div
-      className={styles.gridBox}
-      style={gridStyle}
-      initial={{scale: 0}}
-      animate={{scale: 1}}
-      whileInView={{opacity: 1}}
-    >
+    <div className={styles.gridBox} style={gridStyle}>
       {children}
     </div>
   );

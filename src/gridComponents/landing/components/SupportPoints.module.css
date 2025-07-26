@@ -1,0 +1,19 @@
+.supportPointsContainer {
+  position: relative;
+  top: 8px;
+  left: 10px;
+
+  height: 100%;
+  width: 100%;
+}
+
+.tickTextContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.tickTextContainer p {
+  color: grey;
+  font-style: italic;
+}
