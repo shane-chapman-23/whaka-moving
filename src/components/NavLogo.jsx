@@ -1,10 +1,10 @@
 import React from "react";
 
-import styles from "./Logo.module.css";
+import styles from "./NavLogo.module.css";
 
-export default function Logo() {
+export default function NavLogo() {
   return (
-    <div className={styles.container}>
+    <div className={styles.logoContainer}>
       <img src="images/logo-black.svg" className={styles.logoImage}></img>
       <h2 className={styles.logoName}>
         Whakatane <br />

@@ -1,0 +1,12 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingLogo {
+  margin-top: 15px;
+  width: 150px;
+  /* height: 100px; */
+  opacity: 0.5;
+}

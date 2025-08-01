@@ -1,14 +1,12 @@
-import MovingTruck from "./components/MovingTruck.jsx";
+import GridContainer from "./GridContainer.jsx";
+import NavBar from "./components/NavBar.jsx";
 
 import styles from "./App.module.css";
-import Logo from "./components/Logo.jsx";
-import GridContainer from "./GridContainer.jsx";
 
 function App() {
   return (
     <div className={styles.container}>
-      <Logo />
-      <MovingTruck />
+      <NavBar />
       <GridContainer />
     </div>
   );

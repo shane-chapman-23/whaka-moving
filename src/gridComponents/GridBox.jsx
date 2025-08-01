@@ -19,8 +19,19 @@ export default function GridBox({
     border: border ? border : undefined,
   };
 
+  //access the boxes position
+  const ref = useRef();
+  //move the box down 5-10 pixels on scroll
+  function scrollDrag(ref) {}
+  //move back to original position after scroll
+
   return (
-    <div className={styles.gridBox} style={gridStyle}>
+    <div
+      className={styles.gridBox}
+      style={gridStyle}
+      ref={ref}
+      onScroll={scrollDrag()}
+    >
       {children}
     </div>
   );

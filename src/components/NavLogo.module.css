@@ -1,24 +1,20 @@
-.container {
-  position: fixed;
-  top: 0;
-  left: 0;
-
+.logoContainer {
   display: flex;
-  align-items: end;
+  /* align-items: end; */
 }
 
 .logoImage {
-  margin-top: 20px;
-  margin-left: 20px;
   margin-right: 10px;
 
-  width: 60px;
+  width: 40px;
 }
 
 .logoName {
+  margin-top: 18px;
+
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   line-height: 1.1;
 
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }

@@ -1,7 +1,7 @@
-import GridBox from "../../GridBox.jsx";
-import GridButton from "../../GridButton.jsx";
+import GridBox from "../../gridComponents/GridBox.jsx";
+import GridButton from "../../gridComponents/GridButton.jsx";
 import Heading from "./components/Heading.jsx";
-import LogoImage from "./components/LogoImage.jsx";
+import LandingLogo from "./components/LandingLogo.jsx";
 import SupportPoints from "./components/SupportPoints.jsx";
 
 export default function Landing() {
@@ -16,7 +16,7 @@ export default function Landing() {
       </GridBox>
 
       <GridBox size={{x: 3, y: 3}} position={{x: 11, y: 3}}>
-        <LogoImage height={40} width={40} colour="#eac8a6" />
+        <LandingLogo />
       </GridBox>
 
       <GridButton

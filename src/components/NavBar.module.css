@@ -1,21 +1,41 @@
-.container {
+.navBarContainer {
+  display: flex;
+
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+}
+
+.navLogoContainer {
   display: flex;
   justify-content: center;
-  position: absolute;
-  top: 94%;
-  display: flex;
-  width: 100%;
-  height: 80px;
+  width: 25vw;
+}
 
-  /* background-color: #fbf5de; */
+.navMenuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: -10px;
+  width: 50vw;
+  height: 70px;
+
+  background-color: #fbf5de;
+
+  border: solid rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 nav {
 }
 
 nav a {
+  position: relative;
+  top: 5px;
   width: 20%;
-  padding: 30px;
+  padding: 50px;
 
   font-size: 18px;
 
@@ -24,6 +44,6 @@ nav a {
   color: #141415;
 }
 
-.contactLink {
-  color: #dc3c22;
+.navCTA {
+  width: 25vw;
 }
