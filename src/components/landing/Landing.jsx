@@ -14,12 +14,12 @@ export default function Landing() {
         <Heading />
       </GridBox>
       {/* =========================TAGLINE=========================== */}
-      <GridBox size={{x: 17, y: 4}} position={{x: 1, y: 5}} border="none">
+      <GridBox size={{x: 17, y: 4}} position={{x: 1, y: 4}} border="none">
         <Tagline />
       </GridBox>
       {/* ======================SUPPORT POINTS======================= */}
       <GridBox
-        size={{x: 10, y: 6}}
+        size={{x: 9, y: 6}}
         position={{x: 1, y: 8}}
         backgroundColour={"#fbf5de"}
       >
