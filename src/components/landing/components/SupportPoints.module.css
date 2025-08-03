@@ -1,6 +1,6 @@
 .supportPointsContainer {
   position: relative;
-  top: 8px;
+  top: 4px;
   left: 10px;
 
   height: 100%;
@@ -16,4 +16,5 @@
 .tickTextContainer p {
   color: grey;
   font-style: italic;
+  font-size: 14px;
 }
